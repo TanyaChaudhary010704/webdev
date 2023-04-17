@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Form</title>
+</head>
+<body>
+  <center>  
+  <br>  
+  <h1>Input the details:</h1>
+  <br>
+  <form action="backend.php">
+    <div>
+      <label for="name">Username:
+      <input required type="name" id="name">      
+      </label>
+    </div> 
+    <br>
+    <div>
+      <label for="pass">Password:
+      <input required type="password" id="pass">      
+      </label>      
+    </div>  
+    <br>
+    <br>
+    <input type="submit">
+    <br>
+    <br>
+    <input type="reset">    
+  </form>
+  </center>     
+</body>
+</html>
